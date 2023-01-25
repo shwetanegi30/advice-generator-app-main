@@ -9,31 +9,3 @@ const fetchAdvice = async () => {
 }
 
 fetchAdvice()
-
-
-
-
-
-
-// const number = document.querySelector(".title");
-// const advice = document.querySelector(".text");
-// const button = document.querySelector(".button");
-
-// async function fetchAdvice() {
-//     const res = await fetch("https://api.adviceslip.com/advice");
-//     const adviceGenerated = await res.json();
-//     console.log(adviceGenerated)
-//     number.innerHTML = `#${adviceGenerated.slip.id}`;
-//     advice.innerHTML = `"${adviceGenerated.slip.advice}"`;
-
-// }
-// fetchAdvice;
-
-// button.addEventListener("click", () => {
-//   fetchAdvice()
-// });
-
-
-
-
-
